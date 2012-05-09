@@ -1,6 +1,6 @@
 #!/bin/bash
 
-rm -R tmp
+rm -Rf tmp
 mkdir tmp
 (
   cd tmp

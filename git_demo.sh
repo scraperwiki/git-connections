@@ -61,11 +61,11 @@ check_conflict vibratory_soil_compactor
 
 echo 3. We could notice that there would be a conflict and not allow it.
 echo 
-echo I haven't figured out how to do this yet.
+echo I haven\'t figured out how to do this yet.
 echo 
 
 echo 4. We could start a new branch decending from the remote
 echo '   'If we get merge crap, we report the branch name so someone can fix this.
 echo
-echo I haven't figured out how to do this yet.
+echo I haven\'t figured out how to do this yet.
 echo 
