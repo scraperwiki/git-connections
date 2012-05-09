@@ -3,6 +3,6 @@
 rm -R tmp
 mkdir tmp
 (
-  cd git8
+  cd tmp
   ../git_demo.sh
 )
