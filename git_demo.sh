@@ -66,6 +66,15 @@ echo
 
 echo 4. We could start a new branch decending from the remote
 echo '   'If we get merge crap, we report the branch name so someone can fix this.
-echo
-echo I haven\'t figured out how to do this yet.
-echo 
+echo '   'This doesn't handle files that haven't been git-added.
+conflict shovel
+(
+  cd remote
+  if [ 'No local changes to save' = "`git stash`" ]
+    then
+    echo Use \`git stash apply\` to restore.
+  fi
+  git checkout master
+  git reset --hard
+)
+check_conflict shovel
